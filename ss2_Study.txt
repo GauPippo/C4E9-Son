@@ -1,0 +1,24 @@
+﻿#1
+
+- List trong list => nested(Lông` nhau)
+
+- Yes, absolutly
+
+- Do excerise 1,2 in this chapter @@
+Ex1: 
+ + list(range(10, 0, -2)) # 10, 8, 6, 4, 2
+
+- The three arguments to the range function are start, stop, and step, respectively.
+In this example, start is greater than stop. What happens if start < stop and step < 0?
+Write a rule for the relationships among start, stop, and step.
+
+Ex2: 
+
+import turtle
+tess = turtle.Turtle()
+alex = tess
+alex.color("hotpink")
+
+Does this fragment create one or two turtle instances?Does setting the color of alex also change the color of tess? Explain in detail.
+
+Line tess.tutrle.Turtle() create an object. alex will be refered to tess. Any change in alex lead to change in tess.
