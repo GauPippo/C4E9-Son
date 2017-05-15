@@ -54,9 +54,6 @@ class SKObject:
         self.x += dx
         self.y += dy
 
-    # def caculate_next(self, dx, dy):
-    #     return [self.x += dx, self.y += dy]
-
 sokoban = Map()
 sokoban.print()
 
