@@ -29,13 +29,13 @@ class Map:
         dx = 0
         dy = 0
         if move == "D":
-            dx = 1
-        # To do: move, up, down, left
-        [next_x, next_y] = self.chaien.caculate_next(dx, dy)
-
-# class Keysetting:
-#     def __init__(self, up, down, left, right):
-#         self.up
+            dx += 1
+        elif move == "S":
+            dy += 1
+        elif move == "A":
+            dx -= 1
+        elif move == "W":
+            dy -= 1
 
 class SKObject:
     def __init__(self, x, y, character):
