@@ -5,8 +5,8 @@ from playerbullet import *
 
 class Player:
     def __init__(self):
-        self.x = 0
-        self.y = 0
+        self.x = 300
+        self.y = 600
         self.image = pygame.image.load("resources/player.png")
 
     def draw(self, screen):
