@@ -3,7 +3,7 @@ from player import *
 from background import *
 from inputmanager import *
 from gamemanager import *
-
+from enemy import *
 def init_pygame():
     pygame.init()
     screen = pygame.display.set_mode((600, 800))
@@ -23,7 +23,7 @@ clock = pygame.time.Clock()
 
 game_manager.add(Background())
 game_manager.add(Player())
-
+game_manager.add(EnemyPlane())
 
 loop = True
 
