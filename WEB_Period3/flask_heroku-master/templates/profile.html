@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Fuckin Wow Shit</title>
+</head>
+<body>
+
+{% for profile in profiles %}
+
+<img src="{{ profile.image_profile }}" alt="">
+
+<p>{{ profile.title_profile }}</p>
+
+<p>{{ profile.age_profile }}</p>
+
+{% endfor %}
+
+</body>
+</html>
